@@ -1,0 +1,15 @@
+.header{
+    height: 80px;
+    width: 90vw;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid #000000;  
+}
+.headcomp{
+    color: grey;
+    font-size: 600;
+    font-weight: bold;
+    margin-top: 25px;
+}
