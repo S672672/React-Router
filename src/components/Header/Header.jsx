@@ -5,10 +5,12 @@ export default function Header() {
     <>
         <div
         className='header'>
-        <div className='headcomp'>
-        Home
-        </div>
+        <div className='headcomp'>Home</div>
         <div className='headcomp'>about</div>
+        <div className='headcomp'>contact</div>
+        <div className='headcomp'>contact</div>
+        <div className='headcomp'>contact</div>
+        <button className='button'>Signup</button>
         </div>
     </>
   )
