@@ -1,26 +1,33 @@
-.header{
-    height: 80px;
-    width: 90vw;
-    margin: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    border-bottom: 1px solid #000000;  
-}
-.headcomp{
-    color: grey;
-    font-size: 600;
+.logo{
     font-weight: bold;
-    margin-top: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
+    color: rgba(222, 101, 8, 0.819);
+    font-size: 30px;
 }
-.button{
-    height: 25px;
-    width: 60px;
+.buttons{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.login{
+    border: 1px solid white ;
+    background-color: white;
+    width: 80px;
     border-radius: 10px;
-    background-color: rgb(255, 82, 3);
-    margin-top: 25px;
-    margin-right: 20px;
-    
+    box-shadow: 1 2px 4px rgba(242, 120, 6, 0.1);
+}
+.getstarted{
+    background-color: rgba(213, 115, 2, 0.899);
+    border-radius: 10px;
+    width: 120px
+}
+.navmid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navlnks{
+
 }
